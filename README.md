@@ -22,4 +22,4 @@ HPA
 averageUtilization: 85 - расчитывается как среднее абсолютное со всех подов к желанному(сумарный request c подов). Выделение новых подов будет отношением вышеприведенного исчисления к требуемому averageUtilization 0.85
 averageValue: 128M
 
-ЗЫ: ServiceAccount нужен для доступа CronJob к деплойменту (вызовы API) 
+ЗЫ: ServiceAccount нужен для доступа CronJob к деплойменту (вызовы API). Ingress controller не приведен в данном примере.
